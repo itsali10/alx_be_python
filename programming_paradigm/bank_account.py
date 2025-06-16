@@ -2,7 +2,7 @@ import sys
 
 
 class BankAccount:
-    def __init__(self, account_balance=0.0):
+    def __init__(self, account_balance=0.00):
         self.account_balance = float(account_balance)
     
     def deposit(self,amount):
