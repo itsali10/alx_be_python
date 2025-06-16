@@ -3,7 +3,7 @@ import sys
 
 class BankAccount:
     def __init__(self, account_balance=0.0):
-        self.account_balance = double(account_balance)
+        self.account_balance = float(account_balance)
     
     def deposit(self,amount):
         self.account_balance += amount
